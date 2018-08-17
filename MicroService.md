@@ -10,4 +10,4 @@
 
 # Spring Boot
 
-[Spring Boot Reference](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/){:target="_new"}
+[Spring Boot Reference](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/){:target="_blank"}
