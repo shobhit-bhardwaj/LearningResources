@@ -10,6 +10,8 @@
 
 [Java World](http://www.javaworld.com/)
 
+[Java Guides - Ramesh MF](https://www.javaguides.net/)
+
 [Java Code Geeks](https://www.javacodegeeks.com/)
 
 [Java Revisited](http://javarevisited.blogspot.com/)
