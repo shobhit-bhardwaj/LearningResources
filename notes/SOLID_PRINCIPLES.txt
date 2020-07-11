@@ -1,0 +1,39 @@
+1. Single Responsibility Principle
+
+Intent - A class should only have one responsibility. Furthermore, it should only have one reason to change.
+
+Real World Example - Sachin have to focus only on the game, his wife take care of all other things. His single responsibility is to focus on the game.
+
+
+
+2. Open for Extension, Closed for Modification
+
+Intent - Classes should be open for extension, but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs in an otherwise happy application. Of course, the one exception to the rule is when fixing bugs in existing code.
+
+Real World Example - There are two ways for Hair Loss Treatment. First, Hair Transplant, in which modification required for getting hairs from behind and put them in front. Second, Hair Extension, in which no modification needed.
+
+
+
+3. Liskov Substitution Principle
+
+Intent - If class A is a subtype of class B, then we should be able to replace B with A without disrupting the behavior of our program.
+In other words, If a program is using a Base class, then the reference to the Base class can be replaced with a Derived class without affecting the functionality of program.
+Derived types must be completely substitute able for their base types.
+
+Real World Example - There is a Don Mafia who has three sons, killed by a rival gang. After that, his elder son is elected for the position and he is suppose to carry his father's mafia business. But later it was found that he is son of his neighbour who is a cook. He is not able to handle mafia business rather then he offers tea, sandwiches.
+
+
+
+4. Interface Segregation Principle
+
+Intent - Larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.
+
+Real Life Example - In any Bar, there are two types of Menus. One for the drinks, and another one for the snacks. A man who want both drink and snacks, can have both menu. If a non dronker person who only want to have some snacks can refer only snacks menu. He is not bounded to place an order from drink menu.
+
+
+
+5. Dependency Inversion Principle
+
+Intent - The principle of Dependency Inversion refers to the decoupling of software modules. This way, instead of high-level modules depending on low-level modules, both will depend on abstractions.
+
+Real World Example - Lets there is a Tech Lead, who outsources the responsibility of all activities related to a task to the developer itself. Like he has to calculate the timelines, he has gather the requirement and all. Then he come up with all the details to the Lead and then he will drive the things.
