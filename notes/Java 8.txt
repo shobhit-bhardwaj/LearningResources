@@ -1,0 +1,24 @@
+Collection API
+
+1. Elements are not computed on demand basis.
+2. Indexed access possible.
+3. Iteration is external.
+4. Access of elements is sequential.
+
+
+Stream API
+
+1. Elements are computed on demand basis.
+2. Indexed access not possible.
+3. Iteration is internal.
+4. Access of elements can be sequential as well as parallel.
+5. Stream doesn't store data.
+6. An operation on stream doesn't change its original source.
+7. Stream doesn't have fixed size.
+
+
+Intermediate Operations -
+filter, map, flatMap, sorted, distinct, peek, limit, seek
+
+Terminal Operations -
+forEach, collect, match, count, reduce, toArray, min, max, anyMatch, allMatch, findFirst, findAny, noneMatch
