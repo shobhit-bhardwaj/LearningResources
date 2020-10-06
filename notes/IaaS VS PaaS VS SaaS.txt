@@ -1,0 +1,79 @@
+-----------------------------------------------------------
+
+
+
+Infrastructure as a Service
+
+			Application
+			Data
+We			Runtime
+Manage		Middleware
+			OS
+-------------------------
+			Virtualization
+			Servers
+			Storage
+			Networking
+
+
+1. Pay as you go.
+2. User do not own and maintain physical server.
+3. Cloud provider provides virtual servers.
+4. Highly scalable and flexible.
+
+Primary Users - System Administrators
+Example - AWS EC2
+
+
+
+-----------------------------------------------------------
+
+
+
+Platform as a Service
+
+We			Application
+Manage		Data
+-------------------------
+			Runtime
+			Middleware
+			OS
+			Virtualization
+			Servers
+			Storage
+			Networking
+
+
+1. Provides runtime environment needed for application to deploy.
+2. supporting resources are available as service through third party via service brokers.
+3. can be build on top of IaaS also.
+
+Primary Users - Developers
+Example - Pivotal Cloud Foundary, OpenShift, Azura, AWS Elastic Beanstalk
+
+
+
+-----------------------------------------------------------
+
+
+
+Software as a Service
+
+			Application
+			Data
+			Runtime
+			Middleware
+			OS
+			Virtualization
+			Servers
+			Storage
+			Networking
+
+
+1. No installation needed.
+2. Hosted on remote server.
+3. Available as complete software package to user over internet.
+4. Online account required to access the features of service.
+
+Primary Users - End users
+Example - Google Apps, DropBox
