@@ -1,0 +1,19 @@
+Symmetric Key Encryption
+
+1. Single key used.
+2. Secret / Private key cryptography.
+3. Faster
+4. Utilizes less resources.
+5. DES and AES algorithm is used.
+6. bulk data transmission.
+
+
+
+ASymmetric Key Encryption
+
+1. Two keys used.
+2. Public key encryption.
+3. Slower
+4. Utilizes more resources.
+5. RSA and Diffie Hellman algorithm used.
+6. Securely exchanging the keys.
