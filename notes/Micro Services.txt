@@ -1,0 +1,72 @@
+Microservices Advantages
+
+1. Scaling Easy
+2. Deployment Easy
+3. Technology Usage
+4. Faster to Develop, Understand
+5. Loosely Coupled
+
+
+
+Microservices Disadvantages
+
+1. Interprocess Communication
+2. Distributed Transaction
+3. More Repository
+4. Debugging Issues
+
+
+
+Functional Decomposition
+
+We can decompose an e-com website with its functionally independent modules -
+1. Search of Product
+2. Rating and Reviews
+3. Users
+4. Payment and Billing
+5. Shipping
+6. Notification
+
+
+
+Polyglot Persistence
+
+Persistence Data can further divided according to its nature.
+1. Session Data, Shopping Carts							(Key/Value)
+2. Product Catalog, User Accounts, Domain Objects		(MongoDB)
+3. payment System, Reporting							(RDBMS)
+4. Social Data, Recommandation							(Graph)
+
+
+
+Scale Cube
+X-Axis	-	Horizontal Scaling			(Adding more instances of similar service)
+Y-Axis	-	Data Partitioning			(Processing part of the data by a service instance)
+Z-Axis	-	Functional Decomposition	(You can keep decomposing the service to certain degree. Ex:- Reviews and Rating can decompose to two different services)
+
+
+
+API Gateway
+
+Benefits of API Gateway
+1. Authentication
+2. SSL Termination
+3. Load Balancing
+4. Insulation
+5. Caching
+6. API Health Monitoring
+7. API Versioning
+8. Chaos Monkey Testing
+
+Multiple API Gateway for the multiple type of Clients. Like -
+API GW1 - Mobile
+API GW2 - Web
+API GW3 - Third Party
+
+Backend For FrontEnd (BFF)
+With BFF, you can also do have -
+1. One API Gateway for Android Apps
+2. One API Gateway for IOS Apps
+
+This way, we can compose different APIs and different response for different client using the same microservices.
+Also we can track the usage and rate limit the third party API usages.
