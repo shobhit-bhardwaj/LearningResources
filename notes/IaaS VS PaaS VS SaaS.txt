@@ -4,16 +4,16 @@
 
 Infrastructure as a Service
 
-			Application
-			Data
-We			Runtime
-Manage		Middleware
-			OS
+	Application
+	Data
+	Runtime				We Manage
+	Middleware
+	OS
 -------------------------
-			Virtualization
-			Servers
-			Storage
-			Networking
+	Virtualization
+	Servers
+	Storage
+	Networking
 
 
 1. Pay as you go.
@@ -32,17 +32,16 @@ Example - AWS EC2
 
 Platform as a Service
 
-We			Application
-Manage		Data
+	Application
+	Data				We Manage
 -------------------------
-			Runtime
-			Middleware
-			OS
-			Virtualization
-			Servers
-			Storage
-			Networking
-
+	Runtime
+	Middleware
+	OS
+	Virtualization
+	Servers
+	Storage
+	Networking
 
 1. Provides runtime environment needed for application to deploy.
 2. supporting resources are available as service through third party via service brokers.
@@ -59,15 +58,15 @@ Example - Pivotal Cloud Foundary, OpenShift, Azura, AWS Elastic Beanstalk
 
 Software as a Service
 
-			Application
-			Data
-			Runtime
-			Middleware
-			OS
-			Virtualization
-			Servers
-			Storage
-			Networking
+	Application
+	Data
+	Runtime
+	Middleware
+	OS
+	Virtualization
+	Servers
+	Storage
+	Networking
 
 
 1. No installation needed.
